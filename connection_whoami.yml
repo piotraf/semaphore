@@ -1,0 +1,7 @@
+---
+- name: Test playbook
+  hosts: oracle
+  tasks:
+  - name: WhoAmI
+    shell:
+      cmd: "whoami"
