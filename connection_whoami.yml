@@ -3,5 +3,4 @@
   hosts: servers
   tasks:
   - name: WhoAmI
-    shell:
-      cmd: "whoami"
+    shell: "whoami"
