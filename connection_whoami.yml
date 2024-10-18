@@ -4,3 +4,7 @@
   tasks:
   - name: WhoAmI
     shell: "whoami"
+    register: output
+  - name: Debug
+    debug:
+      msg: "{{ output }}"
