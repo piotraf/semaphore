@@ -1,6 +1,6 @@
 ---
 - name: Test playbook
-  hosts: oracle
+  hosts: servers
   tasks:
   - name: WhoAmI
     shell:
